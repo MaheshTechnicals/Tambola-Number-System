@@ -5,10 +5,10 @@ let num = document.querySelector("#num")
 
 let button = document.querySelector("button")
 
-
+let audio = new Audio("assets/play.wav")
 
 button.addEventListener("click", () => {
-
+  audio.play()
   change()
 
 
