@@ -24,6 +24,7 @@ body {
   border-radius: 10px;
   padding: 10px;
   background: linear-gradient(to right, rgb(173, 83, 137), rgb(60, 16, 83));
+  border: 1px solid white;
 }
 
 h1 {
