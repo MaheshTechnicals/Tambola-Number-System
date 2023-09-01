@@ -11,6 +11,7 @@ let showArr = []
 
 let buttonContainer = document.querySelector(".button-container")
 
+let card = document.querySelector(".card")
 
 
 
@@ -34,7 +35,8 @@ let change = () => {
 
       let elm = `<button class="button">${each}</button>`
       buttonContainer.innerHTML += elm
-
+      card.style.padding = "5px"
+      card.style.border = "1px solid #ccc"
     })
 
   }
@@ -44,7 +46,8 @@ let change = () => {
     num.textContent = numbersArray[rn]
 
     showArr.push(Number(numbersArray[rn]))
-
+    card.style.padding = "5px"
+    card.style.border = "1px solid #ccc"
     showArr.sort((x, y) => x - y);
 
     showArr.forEach((each) => {
