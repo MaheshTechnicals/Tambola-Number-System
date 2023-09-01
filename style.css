@@ -5,13 +5,14 @@
 }
 
 body {
-  height: 100vh;
+  height: 100%;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);
+  background: purple;
+
 }
 
 #container {
@@ -23,8 +24,9 @@ body {
   justify-content: center;
   border-radius: 10px;
   padding: 10px;
-  background: linear-gradient(to right, rgb(173, 83, 137), rgb(60, 16, 83));
   border: 1px solid white;
+  margin-top: 20px;
+  background: radial-gradient(circle at 10% 20%, rgb(255, 200, 124) 0%, rgb(252, 251, 121) 90%);
 }
 
 h1 {
@@ -47,8 +49,8 @@ h1 {
   margin-bottom: 20px;
   font-weight: bold;
   background: white;
-  color: black;
-  border: 1px solid yellow;
+  color: purple;
+  border: 1px solid purple;
 }
 
 
@@ -64,5 +66,5 @@ button {
   font-weight: bold;
   margin-bottom: 20px;
   background: linear-gradient(109.2deg, rgb(254, 3, 104) 9.3%, rgb(103, 3, 255) 89.5%);
-  border: 1px solid white;
+  border: 1px solid purple;
 }
