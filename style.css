@@ -26,7 +26,7 @@ body {
   display: flex;
   align-items: left;
   flex-wrap: wrap;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .button-container {
@@ -65,7 +65,7 @@ body {
 
 
 #container {
-  height: 300px;
+  height: 250px;
   width: 95%;
   display: flex;
   flex-direction: column;
@@ -74,17 +74,8 @@ body {
   border-radius: 10px;
   padding: 10px;
   border: 1px solid white;
-  margin-top: 20px;
+  margin-top: 10px;
   background: radial-gradient(circle at 10% 20%, rgb(255, 200, 124) 0%, rgb(252, 251, 121) 90%);
-}
-
-h1 {
-  font-size: 25px;
-  letter-spacing: 1px;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-  font-weight: bold;
-  color: white;
 }
 
 #num {
@@ -95,7 +86,7 @@ h1 {
   align-items: center;
   justify-content: center;
   font-size: 60px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   font-weight: 400;
   background: white;
   color: purple;
@@ -110,11 +101,11 @@ h1 {
   border: none;
   outline: none;
   border-radius: 10px;
-  font-size: 20px;
+  font-size: 18px;
   letter-spacing: 2px;
   text-transform: uppercase;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   background: linear-gradient(109.2deg, rgb(254, 3, 104) 9.3%, rgb(103, 3, 255) 89.5%);
   border: 1px solid purple;
 }
