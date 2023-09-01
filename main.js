@@ -7,8 +7,15 @@ let button = document.querySelector("button")
 
 let audio = new Audio("assets/play.wav")
 
+let showArr = []
+
+let buttonContainer = document.querySelector(".button-container")
+
+
+
+
 button.addEventListener("click", () => {
-  audio.play()
+  buttonContainer.innerHTML = ""
   change()
 
 
@@ -23,10 +30,38 @@ let change = () => {
   if (numbersArray == "") {
     num.textContent = "OVER"
     num.style.fontSize = "20px"
+    showArr.forEach((each) => {
+
+      let elm = `<button class="button">${each}</button>`
+      buttonContainer.innerHTML += elm
+
+    })
+
   }
   else {
+    audio.play()
     let rn = Math.floor(Math.random() * numbersArray.length)
     num.textContent = numbersArray[rn]
+
+    showArr.push(Number(numbersArray[rn]))
+
+    showArr.sort((x, y) => x - y);
+
+    showArr.forEach((each) => {
+
+      let elm = `<button class="button">${each}</button>`
+      buttonContainer.innerHTML += elm
+
+    })
+
+
+
+
+
+
+
+
+
     numbersArray.splice(rn, 1)
 
   }
