@@ -56,15 +56,6 @@ let change = () => {
       buttonContainer.innerHTML += elm
 
     })
-
-
-
-
-
-
-
-
-
     numbersArray.splice(rn, 1)
 
   }
