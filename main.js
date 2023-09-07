@@ -1,6 +1,7 @@
 var numbersArray = [];
 let num = document.querySelector("#num")
-let button = document.querySelector("button")
+let button = document.querySelector("#btn")
+let reload = document.querySelector("#reload")
 let audio = new Audio("assets/play.wav")
 let showArr = []
 let buttonContainer = document.querySelector(".button-container")
@@ -61,3 +62,8 @@ let numGen = () => {
 }
 
 numGen()
+
+
+reload.addEventListener("click", () => {
+  location.reload()
+})

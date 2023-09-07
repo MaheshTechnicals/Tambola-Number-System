@@ -17,6 +17,32 @@ body {
 }
 
 
+/* Top Bar */
+#bar {
+  height: 60px;
+  width: 100%;
+  background: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  color: white;
+  align-items: center;
+  margin-bottom: 10px;
+
+}
+
+#bar h1 {
+  font-size: 20px;
+  letter-spacing: 5px;
+}
+
+#reload {
+  background: transparent;
+  color: white;
+  font-size: 20px;
+  border: none;
+  outline: none;
+}
 
 /* Cards Style */
 
